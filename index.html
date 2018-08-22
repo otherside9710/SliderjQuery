@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DemoSlider</title>
+  	<style type="text/css">
+  		body {overflow-x:hidden;}
+  	</style>
+  	  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+</head>
+<body>
+	<center>
+	<div class="slider">
+	  <div><img src="http://contemaq.com/wp-content/uploads/2018/07/comedor4.png" alt=""></div>
+	  <div><img src="http://contemaq.com/wp-content/uploads/2018/07/comedor3.png" alt=""></div>
+	  <div><img src="http://contemaq.com/wp-content/uploads/2018/07/comedor2.png" alt=""></div>
+	  <div><img src="http://contemaq.com/wp-content/uploads/2018/07/comedor1.png" alt=""></div>
+	</div>
+	</center>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+<script>
+	$(document).ready(function(){
+      $('.slider').bxSlider({
+      	  auto: true,
+		  stopAutoOnClick: true,
+      });
+    });
+</script>
+</html>
+
